@@ -11,8 +11,9 @@ body {
   scroll-behavior: smooth;
 }
 a, h1, h2, h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 15px;
+  letter-spacing: 2px;
 }
 
 header {
@@ -74,17 +75,21 @@ section {
   align-items: center;
   font-size: 24px;
   color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 #about {
-  background-image: url('/front/asset/background about.jpg');
+  background-image: url('asset/background about.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 
+#about p{
+  line-height: 30px;
+}
 #portfolio {
-  background-image: url('/front/asset/background.jpg');
+  background-image: url('asset/background.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -100,6 +105,7 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 80%;
 }
 
 #contact,
@@ -111,10 +117,11 @@ section {
   flex-direction: column;
   height: auto;
   padding-top: 20px;
+  padding-bottom: 30px;
 }
 .service{
   gap: 15px;
-  padding: 20px;
+  padding: 15px 25px;
   display: flex;
   align-items: center;
 }
@@ -140,6 +147,53 @@ section {
 #contact p {
   color: #fff;
 }
+
+#contact {
+  padding: 60px 0;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.contact-container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.contact-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contact-item p {
+  font-size: 16px;
+}
+
+
+
+
 
 @media (max-width: 768px) {
   .menu-toggle {
