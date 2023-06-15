@@ -88,8 +88,14 @@ section {
 #about p{
   line-height: 30px;
 }
-#portfolio {
+#technologies {
   background-image: url('asset/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#contact {
+  background-image: url('asset/background about.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -108,7 +114,7 @@ section {
   width: 80%;
 }
 
-#contact,
+#portfolio,
 #services{
   background-color: #674EA7;
 }
