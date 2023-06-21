@@ -200,8 +200,7 @@ section {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.3);
-    opacity: 1;
+    background: rgba(0,0,0,0.03);
     border-radius: 15px;
 }
 .overlay {
@@ -229,6 +228,9 @@ section {
     height: 100%;
     color :rgba(0, 0, 0, 0.7)
 }
+.text h3{
+  font-size: 24px;
+}
 .tags {
     font-size: 18px;
     font-weight: 600;
@@ -247,12 +249,14 @@ ul {
     border-radius: 5px;
 }
 .desc {
-    margin: 10px 30px;
-    height: 160px;
-    font-size: 17px;
+    margin: 20px 30px 0px 30px;
+    height: 145px;
+    font-size: 18px;
     line-height: 25px;
-    text-align: left;
+    text-align: justify;
     overflow: auto;
+    padding-top: 10px;
+    text-shadow: 0 0 rgba(0, 0, 0, 0.7);
 }
 .desc li:before {
     padding-right: 10px;
@@ -260,7 +264,6 @@ ul {
 .overlay_button {
   display: flex;
   align-items: center;
-  justify-content: center;
   padding-bottom: 10px;
   justify-content: space-evenly;
 }
